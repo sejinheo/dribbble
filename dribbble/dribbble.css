@@ -1,0 +1,44 @@
+body
+{
+  background:rgb(244, 244, 244);
+}
+.SignUp_button
+{
+    color:white;
+    background:black;
+  border-radius:50px;
+  width:100px;
+  height:50px;
+  font-weight:bold;
+  position:absolute;
+  left: 95%;
+  transform: translateX(-100%);
+}
+.Log_in
+{
+  float:right;
+ width:100px;
+ height:5px;
+ position:absolute;
+ left: 90%;
+    transform: translateX(-100%);
+}
+.Search
+{
+  text-align:left;
+  background:white;
+  color:rgb(105, 105, 105);
+  border-radius:50px;
+  width:200px;
+  height:50px;
+  float:right;
+  border:none;
+  padding-left: 20px; 
+ position:absolute;
+ left: 80%;
+    transform: translateX(-100%);
+}
+div
+{
+  display:flex;
+}
