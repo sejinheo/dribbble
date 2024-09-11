@@ -1,6 +1,6 @@
 body
 {
-  background:rgb(244, 244, 244);
+  background:rgb(246, 246, 246);
 }
 .SignUp_button
 {
@@ -16,6 +16,7 @@ body
 }
 .Log_in
 {
+  font-weight:bold;
   float:right;
  width:100px;
  height:5px;
@@ -38,7 +39,22 @@ body
  left: 80%;
     transform: translateX(-100%);
 }
+.LoGo
+{
+  margin-top:15px;
+  width:105px;
+  height:35px;
+  position:absolute;
+  left: 50%;
+  transform: translateX(-100%);
+}
 div
 {
   display:flex;
+}
+.position-left
+{
+  
+  font-weight:bold;
+  position:absolute;
 }
