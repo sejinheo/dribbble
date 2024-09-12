@@ -2,6 +2,24 @@ body
 {
   background:rgb(246, 246, 246);
 }
+div
+{
+  display:flex;
+}
+.BigText1
+{
+  font-size: 4em;
+  margin-left:22%;
+  width:800px;
+  height:20px;
+}
+.BigText2
+{ margin-top:55px;
+  font-size: 4em;
+  margin-left:36%;
+  width:500px;
+  height:10px;
+}
 .SignUp_button
 {
     color:white;
@@ -13,6 +31,18 @@ body
   position:absolute;
   left: 95%;
   transform: translateX(-100%);
+  cursor: pointer;
+}
+.Start_button
+{
+  color:white;
+    background:black;
+  border-radius:50px;
+  width:120px;
+  height:50px;
+  font-weight:bold;
+  margin-left:42%;
+  cursor: pointer;
 }
 .Log_in
 {
@@ -23,6 +53,7 @@ body
  position:absolute;
  left: 90%;
     transform: translateX(-100%);
+    cursor: pointer;
 }
 .Search
 {
@@ -38,6 +69,7 @@ body
  position:absolute;
  left: 80%;
     transform: translateX(-100%);
+    cursor: pointer;
 }
 .LoGo
 {
@@ -47,14 +79,34 @@ body
   position:absolute;
   left: 50%;
   transform: translateX(-100%);
-}
-div
-{
-  display:flex;
+  cursor: pointer;
 }
 .position-left
 {
-  
+
   font-weight:bold;
   position:absolute;
+  cursor: pointer;
+}
+
+.Notice
+{
+  margin-top: 150px;
+  padding-top: 10px;
+margin-left: 35%;
+text-align:center;
+  font-weight:bold;
+  width:325px;
+  height:25px;
+  border-radius:50px;
+  
+  
+  cursor: pointer;
+}
+.advice
+{
+  margin-left: 22%;
+  margin-top:80px;
+ font-size:18px;
+  font-weight:bold;
 }
