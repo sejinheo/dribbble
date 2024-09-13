@@ -16,3 +16,13 @@ function changeGradient()
     requestAnimationFrame(changeGradient);
 }
 changeGradient();
+
+let photoDisplay = 0;
+function Repetition()// 이미지 이동
+{
+    photoDisplay++;
+    if(photoDisplay  == 5)
+    photoDisplay = 0;
+    document.querySelector('.photoZone').style.transform = `translateX(-${photoDisplay * 10}px)`;
+}
+setInterval(Repetition,500);
